@@ -1,6 +1,6 @@
 # Match Engine
 
-[![CI](https://github.com/amk9978/Match-Engine/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/amk9978/Match-Engine/actions/workflows/ci-cd.yml)
+[![CI](https://github.com/amirimi/Match-Engine/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/amirimi/Match-Engine/actions/workflows/ci-cd.yml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
 
 Point it at a roster of people and it returns the group most worth putting in a
@@ -14,7 +14,7 @@ group in that graph is the answer.
 ## Quickstart
 
 ```bash
-pip install git+https://github.com/amk9978/Match-Engine
+pip install git+https://github.com/amirimi/Match-Engine
 
 match-engine match docs/sample.csv --map presets/vendor_six_column.yaml \
   --prompt "I am hiring engineers for a fintech startup"
@@ -96,5 +96,5 @@ complementarity off the same vectors similarity comes from, so the two signals
 correlate in a way they do not when a model scores the pairs.
 
 The complementarity design, idea through implementation, is
-[Amir Karimi](https://github.com/amk9978)'s own, worked out without knowledge of
+[Amir Karimi](https://github.com/amirimi)'s own, worked out without knowledge of
 the work cited above. Apache 2.0, see [LICENSE](LICENSE).

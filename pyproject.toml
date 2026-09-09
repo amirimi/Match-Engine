@@ -48,8 +48,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/amk9978/Match-Engine"
-Repository = "https://github.com/amk9978/Match-Engine"
+Homepage = "https://github.com/amirimi/Match-Engine"
+Repository = "https://github.com/amirimi/Match-Engine"
 
 [project.scripts]
 match-engine = "match_engine.cli:main"
